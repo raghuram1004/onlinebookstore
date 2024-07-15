@@ -10,10 +10,10 @@ phases:
   build:
     commands:
         - mvn clean verify sonar:sonar \
-               -Dsonar.projectKey=Simple-java \
-               -Dsonar.projectName='Simple-java' \
-               -Dsonar.host.url=https://db4fab42-4a5b-4038-af31-da16e4d01e77-10-244-8-26-9000.papa.r.killercoda.com \
-               -Dsonar.token=sqp_7ec896d2fa81e0ff4c5a9c1618533bd4b3305285
+           -Dsonar.projectKey=Simple-java \
+           -Dsonar.projectName='Simple-java' \
+           -Dsonar.host.url=https://cd0a902e-0acb-4e7a-bde7-b354ca76a35a-10-244-6-78-9000.papa.r.killercoda.com \
+           -Dsonar.token=sqp_5b6f2b7033087bfab33edabe3882ab8bf3a4cdfe
         - mvn clean package
         - mkdir output
         - cp target/*.war output/books.war
