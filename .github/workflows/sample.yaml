@@ -1,0 +1,12 @@
+name: Sample run
+
+on: 
+  push:
+
+jobs:
+    
+  simple:
+    runs-on: ububuntu-latest
+    steps:
+    - name: sample run
+      run: echo "Hello World"
