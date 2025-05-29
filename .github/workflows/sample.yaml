@@ -6,7 +6,7 @@ on:
 jobs:
     
   simple:
-    runs-on: ububuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: sample run
       run: echo "Hello World"
